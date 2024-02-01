@@ -1,0 +1,144 @@
+
+ 
+ 
+ 
+ 
+ body {
+  
+     font-family: Arial, Helvetica, sans-serif;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     justify-content: center;
+     align-items: center;
+     
+     
+;
+     background-color: #fefefe;
+     height: 100%;
+     color: black;
+}
+
+.header {
+     text-align: center;
+}
+
+.navbar div {
+  display: inline-block;
+  position: relative;
+  padding: 0 30px; 
+     border: 2px solid  rgba(240, 240, 240, 0.705) ;
+     background-color: #ffffff;
+}
+
+
+h1 {
+    margin-top: 50px;
+     font-size: 23px;
+    text-align: left;
+    font-weight: 100;
+}
+
+p {
+    font-size: 15px;
+    text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; 
+  
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 1062px;
+  width: 100%;
+  margin: left;
+  background-color: #fdfcfc;
+  height: 100%;
+  color: black;
+}
+
+.text1, .text2 { 
+  border: 2px solid rgba(240, 240, 240, 0.705); 
+  border-radius: 5px;
+  background-color: #ffffff ;
+  padding: 10px; 
+  
+}
+
+ 
+  
+
+.text3 {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgba(95, 93, 103, 0.502);
+  line-height: 1.5;
+
+  position: fixed;
+  top: 90%;
+  left: 520px;
+  width: 195px;
+  height: 11px;
+ 
+}
+.imgall {
+  max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+.imgall img{
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+.imgall .img1  {
+  position: relative;
+  animation: rotateY1 10s linear infinite;
+  backface-visibility: hidden;
+}
+.imgall .img2  {
+  position: absolute;
+  top: 0;
+  animation: rotateY2 10s linear infinite;
+    backface-visibility: hidden;
+}
+
+@keyframes rotateY1 {
+  0% {
+      transform: rotateY(-180deg);
+  }
+  40% {
+      transform: rotateY(-180deg);
+  }    
+  50% {
+      transform: rotateY(0);
+  }
+  90% {
+      transform: rotateY(0);
+  }    
+  100% {
+      transform: rotateY(180deg);
+  } 
+}    
+@keyframes rotateY2 {
+  0% {
+      transform: rotateY(0);
+  } 
+  40% {
+      transform: rotateY(0);
+  } 
+  50% {
+      transform: rotateY(180deg);
+  }    
+  90% {
+      transform: rotateY(180deg);
+  }    
+  100% {
+      transform: rotateY(360deg);
+  } 
+}
