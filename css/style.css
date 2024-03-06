@@ -1,0 +1,138 @@
+html {
+    background-image: url(../image/header_top.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+@font-face {
+    font-family: Minecraft;
+    src: url(../shrifts/minecraft.ttf);
+  
+}
+* {
+    box-sizing: border-box;
+
+}
+.container {
+    @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+    width: 1900px;
+    margin: 0 auto;
+
+}
+.header {
+    display: flex;
+    @media screen { min-width: 790px;
+    }
+}
+.team{
+
+}
+.Setting_title{
+    font-family: Minecraft;
+    font-weight: 500;
+}
+.toppng{
+    position: fixed;
+    z-index: -100;
+}
+.Setting_title {
+    display: flex;
+    list-style-type: none;
+}
+.logo2 {
+    wdisplay: flex;
+    list-style-type: none;
+}
+
+.login {
+    font-family: Minecraft;
+    font-weight: 500;
+    font-size: x-large;
+ right: 100px;
+   position: fixed;
+}
+.touch{
+   position: relative;
+    margin: auto;
+    text-align: center;
+  margin-top: 200px;
+  margin-right: 600px;
+    
+    
+}
+.touch1 {
+    position: fixed;
+    z-index: -100;|
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222)
+
+
+
+
+}
+.Texttouch{
+ position: fixed;
+  
+    font-family: Minecraft;
+    font-weight: 500;
+    top: 400px;
+    right: 680px ;
+    font-size: x-large;
+    color: black;
+   
+
+   
+}
+.kotik {
+    position: fixed;
+    top: 150px;
+    right: 800px;
+}
+.footer {
+    position: fixed;
+   right: 10;
+   bottom: 0;
+   text-align: end; 
+   width: 99%;   
+   font-size: 18px;
+font-weight: Minecraft;
+font-family: Minecraft;
+}
+.Version {
+    position: absolute;
+    
+}
+.povar {
+    position: absolute;
+    right: -250px;
+    top: -50px;
+}
+.pid {
+    position: absolute;
+    top: 50px;
+}
+;
+.textpro {
+    position: fixed;
+    right: -650px;
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
